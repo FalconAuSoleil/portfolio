@@ -10,11 +10,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-8">
             <div className="w-32 h-32 rounded-full overflow-hidden mb-6 border-4 border-white">
-              <img 
-                src="/images/photo_perso.jpg" 
-                alt="Photo de Max Lucas" 
-                className="w-full h-full object-cover"
-              />
+            <img src={`${process.env.PUBLIC_URL}/images/photo_perso.jpg`} alt="Photo" />
             </div>
             <h1 className="text-4xl font-bold mb-4">Max Lucas</h1>
             <p className="text-xl mb-2">Digital Communication Strategist & Community Manager</p>
@@ -84,7 +80,7 @@ const Portfolio = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="col-span-2">
-                    <img src="/images/tiktok2.png" alt="Screenshots AuSoleil" className="w-full rounded-lg object-cover h-48" />
+                    <img src={`${process.env.PUBLIC_URL}/images/tiktok2.png`} alt="Screenshots AuSoleil" className="w-full rounded-lg object-cover h-48" />
                     <div className="grid grid-cols-6 gap-2 mt-2">
                       {[2563, 7302, 7670, 8643, 3214, 1603].map((views, index) => (
                         <div key={index} className="relative">
@@ -120,16 +116,16 @@ const Portfolio = () => {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="col-span-2 grid grid-cols-4 gap-2">
                       <a href="https://www.instagram.com/maxouzz/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
-                        <img src="/images/insta_3.png" alt="EPITA Video 1" className="w-full rounded-lg" />
+                        <img src={`${process.env.PUBLIC_URL}/images/insta_3.png`} alt="EPITA Video 1" className="w-full rounded-lg" />
                       </a>
                       <a href="https://www.instagram.com/maxouzz/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
-                        <img src="/images/insta_2.png" alt="EPITA Video 2" className="w-full rounded-lg" />
+                        <img src={`${process.env.PUBLIC_URL}/images/insta_2.png`} alt="EPITA Video 2" className="w-full rounded-lg" />
                       </a>
                       <a href="https://www.instagram.com/maxouzz/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
-                        <img src="/images/insta_1.png" alt="EPITA Video 3" className="w-full rounded-lg" />
+                        <img src={`${process.env.PUBLIC_URL}/images/insta_1.png`} alt="EPITA Video 3" className="w-full rounded-lg" />
                       </a>
                       <a href="https://www.instagram.com/maxouzz/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-300 hover:scale-105">
-                        <img src="/images/insta_4.png" alt="EPITA Video 4" className="w-full rounded-lg" />
+                        <img src={`${process.env.PUBLIC_URL}/images/insta_4.png`} alt="EPITA Video 4" className="w-full rounded-lg" />
                       </a>
                     </div>
                   </div>
@@ -141,28 +137,28 @@ const Portfolio = () => {
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div className="bg-gray-900 rounded-lg overflow-hidden">
                       <img
-                        src="/images/retour3.png"
+                        src={`${process.env.PUBLIC_URL}/images/retour3.png`}
                         alt="Message Étudiant 1"
                         className="w-full h-auto transition-transform duration-300 transform hover:scale-110"
                       />
                     </div>
                   <div className="bg-gray-900 rounded-lg overflow-hidden">
                     <img
-                      src="/images/retour2.png"
+                      src={`${process.env.PUBLIC_URL}/images/retour2.png`}
                       alt="Message Étudiant 2"
                       className="w-full h-auto transition-transform duration-300 transform hover:scale-110"
                      />
                     </div>
                   <div className="bg-gray-900 rounded-lg overflow-hidden">
                     <img
-                      src="/images/retour4.png"
+                      src={`${process.env.PUBLIC_URL}/images/retour4.png`}
                       alt="Message Étudiant 3"
                       className="w-full h-auto transition-transform duration-300 transform hover:scale-110"
                     />
                   </div>
                   <div className="bg-gray-900 rounded-lg overflow-hidden">
                     <img
-                      src="/images/retour1.png"
+                      src={`${process.env.PUBLIC_URL}/images/retour1.png`}
                       alt="Message Étudiant 4"
                       className="w-full h-auto transition-transform duration-300 transform hover:scale-110"
                     />
