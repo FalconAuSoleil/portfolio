@@ -53,7 +53,7 @@ const Portfolio = () => {
           {/* AuSoleil Project */}
           <Card className="mb-8 bg-gray-800 border-gray-700">
             <CardHeader>
-              <CardTitle className="text-white">AuSoleil - Jeu & Communauté Gaming</CardTitle>
+              <CardTitle className="text-white">AuSoleil - Jeu & Communauté Gaming - 2019-2023</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-2 gap-8">
@@ -99,7 +99,7 @@ const Portfolio = () => {
           {/* EPITA Project */}
           <Card className="bg-gray-800 border-gray-700">
             <CardHeader>
-              <CardTitle className="text-white">Campagne EPITA - Communication Digitale</CardTitle>
+              <CardTitle className="text-white">Campagne EPITA - Communication Digitale - 2024</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-8">
@@ -112,6 +112,13 @@ const Portfolio = () => {
                       <li>• Engagement fort de la communauté étudiante ciblée</li>
                       <li>• Rayonnement international</li>
                     </ul>
+                    <div className="flex gap-4 mt-4">
+                    <a href="https://www.instagram.com/maxouzz/" 
+                       className="flex items-center gap-2 text-blue-400 hover:text-blue-300">
+                      <Share2 className="w-5 h-5" />
+                      Lien Instagram récent
+                    </a>
+                  </div>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="col-span-2 grid grid-cols-4 gap-2">
